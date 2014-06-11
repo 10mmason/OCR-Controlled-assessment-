@@ -32,7 +32,7 @@ elif answer == "2" :
     temp1 = open("addressbookdata","r")
     for line in temp1:
         if searchcriteria in line:
-        print line
+            print line
 
 
 # USER DID NOT PICK CREATE OR SEARCH 
